@@ -1,0 +1,22 @@
+{
+    "name": "antonio/scripting-thoughts",
+    "autoload": {
+        "psr-4": {
+            "ScriptingThoughts\\": "src/"
+        },
+        "files": [
+          "config/constants.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Antonio",
+            "email": "yeahcode.co@gmail.com"
+        }
+    ],
+    "require": {
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1",
+        "psr/http-server-handler": "^1.0"
+    }
+}
